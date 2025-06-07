@@ -14,6 +14,7 @@ export default function ResultsTable({ data }) {
             <th>Name</th>
             <th>Age</th>
             <th>Condition</th>
+            <th>Gender</th>
           </tr>
         </thead>
         <tbody>
@@ -22,6 +23,7 @@ export default function ResultsTable({ data }) {
               <td>{patient.name}</td>
               <td>{patient.age}</td>
               <td>{patient.condition}</td>
+              <td>{patient.gender || "N/A"}</td>
             </tr>
           ))}
         </tbody>
