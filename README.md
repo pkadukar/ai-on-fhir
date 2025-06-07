@@ -102,6 +102,24 @@ Runs the Flask app in a container on port 5050
 | Get covid patients over 65             | condition: covid, age: >65               |
 
 
+## 🖼️ Screenshots
+
+### 🔐 Login Screen
+![Login](./frontend/public/screenshots/login.png)
+
+###  Dashboard
+![Dashboard](./frontend/public/screenshots/dashboard.png)
+
+### 💬 Query & Result Display
+![Query Result](./frontend/public/screenshots/query-result1.png)
+
+### 💬 Query & Result Display
+![Query Result](./frontend/public/screenshots/query-result2.png)
+
+### ⚠️ No Results Handling
+![No Results](./frontend/public/screenshots/no-results.png)
+
+
 🔒 Security & Compliance
 
 See security.md for:
