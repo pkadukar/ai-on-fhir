@@ -17,23 +17,22 @@ into structured, FHIR-style health data queries.
 ## 📂 Project Structure
 
 ai-on-fhir-assessment/
-├── backend/ # Flask backend (Python)
-│ ├── app.py # Core API + NLP logic
-│ ├── users.db # SQLite for user auth
-│ ├── requirements.txt # Backend dependencies
-│ ├── Dockerfile # Backend Docker config
-│ └── .dockerignore # Docker exclusions
+├── backend/               # Flask backend (Python)
+│   ├── app.py             # Core API + NLP logic
+│   ├── requirements.txt   # Backend dependencies
+│   ├── Dockerfile         # Docker config
+│   ├── .dockerignore      # Docker exclusions
+│   ├── users.db           # SQLite for user auth
+│   ├── test_*.py          # Backend tests
 │
-├── frontend/ # React frontend (Vite or CRA)
-│ ├── pages/index.js # Main UI
-│ └── components/ # Reusable components
-│ ├── ResultsTable.js
-│ └── ResultsChart.js
+├── frontend/              # React frontend (Vite or Next.js)
+│   ├── pages/index.js     # Main UI page
+│   ├── components/        # Reusable components
+│   ├── styles/            # Global CSS
 │
-├── security.md # Security & compliance plan
-├── Makefile # Simplified dev scripts
-└── README.md # You're here!
-
+├── security.md            # Security & compliance plan
+├── Makefile               # Simplified CLI commands
+└── README.md              # You're here!
 
 ---
 
