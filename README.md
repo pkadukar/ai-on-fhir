@@ -4,6 +4,8 @@ This full-stack app converts natural language queries like
 “Show me all diabetic patients over 50”  
 into structured, FHIR-style health data queries.
 
+What is FHIR?
+FHIR (Fast Healthcare Interoperability Resources) is a standard for structuring and exchanging healthcare data electronically. It breaks medical data into "resources" like Patient, Condition, Medication, etc.
 ---
 
 ## 🚀 Demo
