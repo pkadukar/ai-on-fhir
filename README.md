@@ -68,6 +68,11 @@ Or manually:
 cd backend
 python3 -m venv venv
 source venv/bin/activate
+python app.py
+
+cd frontend
+npm run dev
+
 pip install -r requirements.txt
 python -m spacy download en_core_web_sm
 
